@@ -5,7 +5,7 @@
 
 The community made multiplatform JavaScript & Lua Game Engine.
 
- **[Docs](https://github.com/Unexex/AspectEngineDocumentation/wiki)** | **[Download](https://github.com/Unexex/AspectEngine/releases/)** | **[Community]()**
+ **[Docs](https://github.com/Unexex/AspectEngineDocumentation/wiki)** | **[Download](https://github.com/AsynchonousAI/AspectEngine/releases/)** | **[Community]()**
 
 </div>
 
@@ -33,7 +33,7 @@ AspectEngine has
 * Run "npm install"
 * Run "npm run build"
 ***
-Or just go to [Releases](https://github.com/Unexex/AspectEngine/releases/) and download prebuild binaries.
+Or just go to [Releases](https://github.com/AsynchonousAI/AspectEngine/releases/) and download prebuild binaries.
 
 # Contributors
 
