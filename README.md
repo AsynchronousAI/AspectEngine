@@ -27,6 +27,11 @@ AspectEngine has
 ![image](https://user-images.githubusercontent.com/7625588/67295473-c0d9d680-f519-11e9-96b8-72422af0a547.png)
 (Lightning showcase made by [Ashes](https://github.com/but0n/Ashes), our lightning system, this can be replicated with Aspect but was *not* made with Aspect)
 
+# FAQ
+- **Q:** Does this work with Apple ARM Chips for Mac? **A:** Yes!
+- **Q:** Is it free? **A:** The app is free, but we sell a subscription and items in our asset store cost money.
+- **Q:** How much do you take? **A:** 10% at max.
+
 # Building
 * Download the repository (src).
 * Run "cd app"
