@@ -1,0 +1,82 @@
+{
+    "name": "fengari-web",
+    "version": "0.1.4",
+    "description": "Provides anything you need to run Fengari in the browser",
+    "repository": "https://github.com/fengari-lua/fengari-web.git",
+    "contributors": [
+        "Benoit Giannangeli <giann008@gmail.com>",
+        "Daurnimator <quae@daurnimator.com>"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/fengari-lua/fengari-web/issues"
+    },
+    "homepage": "https://github.com/fengari-lua/fengari-web#readme",
+    "main": "dist/fengari-web.bundle.js",
+    "dependencies": {
+        "fengari": "^0.1.4",
+        "fengari-interop": "^0.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.1.6",
+        "@babel/preset-env": "^7.1.6",
+        "babel-loader": "^8.0.4",
+        "eslint": "^5.9.0",
+        "webpack": "^4.25.1",
+        "webpack-cli": "^3.1.2"
+    },
+    "scripts": {
+        "build": "webpack -p",
+        "lint": "eslint webpack.config.js src/",
+        "prepare": "npm run build",
+        "prepublishOnly": "git diff-index --quiet --cached HEAD -- && npm run lint"
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "worker": true,
+            "es6": true
+        },
+        "extends": "eslint:recommended",
+        "parserOptions": {
+            "sourceType": "module"
+        },
+        "rules": {
+            "indent": [
+                "error",
+                "tab",
+                {
+                    "SwitchCase": 1
+                }
+            ],
+            "linebreak-style": [
+                "error",
+                "unix"
+            ],
+            "no-console": 0,
+            "no-unused-vars": [
+                2,
+                {
+                    "args": "none"
+                }
+            ],
+            "semi": [
+                "error",
+                "always"
+            ]
+        },
+        "overrides": [
+            {
+                "files": [
+                    "webpack.config.js"
+                ],
+                "env": {
+                    "node": true
+                },
+                "parserOptions": {
+                    "sourceType": "script"
+                }
+            }
+        ]
+    }
+}
