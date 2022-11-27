@@ -33,4 +33,4 @@ AspectEngine has
 * Run "npm install"
 * Run "npm run build"
 ***
-Or just go to [Releases]() and download prebuild binaries.
+Or just go to [Releases](https://github.com/Unexex/AspectEngine/releases/) and download prebuild binaries.
