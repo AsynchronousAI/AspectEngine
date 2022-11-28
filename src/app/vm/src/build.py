@@ -27,8 +27,8 @@ def install_dependencies():
     """Installs the dependencies."""
     print("Installing dependencies")
 
-    # install the dependencies using the npm install command
-    os.system("npm install")
+    # install the dependencies using the bun install command
+    os.system("bun install")
 
 def main():
     """The main function of the script."""

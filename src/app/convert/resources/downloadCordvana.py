@@ -8,7 +8,7 @@ operatingSystem: str = platform.system()
 if operatingSystem == "Windows":
   # Log the installation of Cordova on Windows.
   print("Installing Cordova for Windows...")
-  if os.system("npm install -g cordova") == 0:
+  if os.system("bun install -g cordova") == 0:
     # Log the successful installation of Cordova on Windows.
     print("Cordova has been successfully installed on Windows.")
   else:
@@ -17,7 +17,7 @@ if operatingSystem == "Windows":
 elif operatingSystem == "Linux" or operatingSystem == "Darwin":
   # Log the installation of Cordova on Linux or macOS.
   print("Installing Cordova for Linux or macOS...")
-  if os.system("sudo npm install -g cordova") == 0:
+  if os.system("sudo bun install -g cordova") == 0:
     # Log the successful installation of Cordova on Linux or macOS.
     print("Cordova has been successfully installed on Linux or macOS.")
   else:

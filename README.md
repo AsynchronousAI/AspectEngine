@@ -32,11 +32,33 @@ AspectEngine has
 - **Q:** Is it free? **A:** The app is free, but we sell a subscription and items in our asset store cost money.
 - **Q:** How much do you take? **A:** 10% at max.
 
+# Requirements
+## Developer
+### Basic requirements
+- Bun.js installed
+- Python installed (3 or later)
+- macos: 10.11+
+- Windows: 10+
+- Linux: Ubuntu 16.04
+- HTML 5
+### Export to Mobile
+- Xcode 11.x+
+- JDK 11+
+- Android SDK
+## User
+- macos: 10.11+
+- Windows: 10+
+- Linux: Ubuntu 16.04
+- HTML 5
+- iOS 9+
+- Android 4.4+
+***
+
 # Building
 * Download the repository (src).
 * Run "cd app"
-* Run "npm install"
-* Run "npm run build"
+* Run "bun install"
+* Run "bun run build"
 ***
 Or just go to [Releases](https://github.com/AsynchronousAI/AspectEngine/releases/) and download prebuild binaries.
 

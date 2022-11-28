@@ -1,4 +1,4 @@
-# This code installs deskgap using the npm package manager.
+# This code installs deskgap using the bun package manager.
 # It determines the operating system and installs the package accordingly.
 # The function names are install_deskgap_windows, install_deskgap_linux, and install_deskgap_other.
 # The variable names are operatingSystem.
@@ -13,19 +13,19 @@ operatingSystem = platform.system()
 def install_deskgap_windows():
   # Install deskgap on Windows
   print("Installing Deskgap on Windows")
-  os.system("npm install --save-dev deskgap")
+  os.system("bun install --save-dev deskgap")
 
 def install_deskgap_linux():
   # Install deskgap on Linux
   print("Installing Deskgap on Linux")
-  os.system("sudo npm install --save-dev deskgap")
+  os.system("sudo bun install --save-dev deskgap")
 
 def install_deskgap_other():
   # Install deskgap on other operating systems
   print("Installing Deskgap on other operating systems")
-  os.system("npm install --save-dev deskgap")
+  os.system("bun install --save-dev deskgap")
 
-# Install deskgap using npm
+# Install deskgap using bun
 if operatingSystem == "Windows":
   # Install deskgap on Windows
   install_deskgap_windows()
