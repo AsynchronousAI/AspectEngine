@@ -2,7 +2,7 @@ import os
 import platform
 from typing import List
 # Get the operating system name, e.g. 'Windows', 'Linux', 'Darwin' (macOS), etc.
-operatingSystem: str = platform.system()
+operatingSystem = platform.system()
 
 # Install Cordova on Windows, or on Linux or macOS if the user has sudo permissions.
 if operatingSystem == "Windows":

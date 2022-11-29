@@ -11,7 +11,7 @@ import os
 import sys
 
 # Create variables
-projectName: str = sys.argv[1:][0] # this is the name of the folder that contains the project
+projectName = sys.argv[1:][0] # this is the name of the folder that contains the project
 
 # Emulate
 os.system("cd "+projectName)

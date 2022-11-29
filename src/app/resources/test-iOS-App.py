@@ -1,6 +1,6 @@
 import os # import the os module
-projectName: str = "" # Change to the name of your project
-platformName: str = "" # Change to the name of your platform
+projectName = "" # Change to the name of your project
+platformName = "" # Change to the name of your platform
 
 def emulate():
     # Emulate

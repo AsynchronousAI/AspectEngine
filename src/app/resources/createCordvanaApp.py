@@ -3,18 +3,18 @@ import os
 import platform
 import sys
 from typing import List
-operatingSystem: str = platform.system()
+operatingSystem = platform.system()
 
 # Create variables
-projectName: str = sys.argv[1:][0]
+projectName = sys.argv[1:][0]
 android: bool = sys.argv[1:][1]
 iOS: bool = sys.argv[1:][2]
-packageName: str = sys.argv[1:][3]
-options: str = sys.argv[1:][4]
+packageName = sys.argv[1:][3]
+options = sys.argv[1:][4]
 plugins: list = sys.argv[1:][5]
 
 # Create cordova app
-createCommand: str = "cordova create "+ projectName+ packageName+"."+projectName+ options
+createCommand = "cordova create "+ projectName+ packageName+"."+projectName+ options
 print("Creating cordova app...")
 os.system(createCommand)
 os.system("cd "+projectName)

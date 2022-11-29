@@ -20,17 +20,17 @@ import sys
 import argparse
 
 # Create variables
-projectName: str = sys.argv[1:][0] # Set the name of your project here
-projectFolder: str = sys.argv[1:][1] # Set the path to the folder containing your projects
+projectName = sys.argv[1:][0] # Set the name of your project here
+projectFolder = sys.argv[1:][1] # Set the path to the folder containing your projects
 
 # Create functions
-def checkProjectExists(projectName: str, projectFolder: str) -> bool:
+def checkProjectExists(projectName, projectFolder) -> bool:
     if not os.path.isdir(projectFolder + "/" + projectName):
         return False
     else:
         return True
 
-def emulateProject(projectName: str, projectFolder: str):
+def emulateProject(projectName, projectFolder):
     os.chdir(projectFolder + "/" + projectName)
     os.system("cordova run android")
 

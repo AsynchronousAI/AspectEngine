@@ -10,7 +10,7 @@ import os
 import sys
 from typing import List
 
-def create_project(project_name: str) -> None:
+def create_project(project_name) -> None:
     """Creates a new project folder and installs the dependencies."""
     print(f"Creating project {project_name}")
 
@@ -33,7 +33,7 @@ def install_dependencies():
 def main():
     """The main function of the script."""
     # get the project name from the command line arguments
-    project_name: str = sys.argv[1:][0]
+    project_name = sys.argv[1:][0]
 
     # call the create_project function
     create_project(project_name)
