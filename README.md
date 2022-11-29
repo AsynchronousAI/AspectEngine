@@ -12,7 +12,7 @@ The community made multiplatform JavaScript & Lua Game Engine.
 # Why Aspect?
 AspectEngine has
 - ⚛️ **Incredible Physics** - With 2D & 3D Physics that run at a average of 60fps 
-- ⚡ **Stunning Speeds** - We use Lua, which is one of the fastest languages, both in the source and in games.
+- ⚡ **Stunning Speeds** - With Bun.js AspectEngine runs faster than Unreal, Unity, and GoDot.
 - 🎮 **Multiplatform support** - Games can be exported to Windows, macOS, Linux,
 - ‍💻 **Easy to learn** - We use simple API's to make the engine easier to understand.
 - 💡**Dazzling Global Illumination *(Lightning)*** - Global Illumination makes your game look as dazzling as real life without any major performance drops.
