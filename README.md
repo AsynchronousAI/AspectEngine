@@ -55,7 +55,7 @@ AspectEngine has
 ***
 
 # Building
-* Download the repository (src).
+* Download the repository.
 * Run "cd app"
 * Run "bun install"
 * Run "bun run build"
