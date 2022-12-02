@@ -7,7 +7,7 @@
 ***
 The community made multiplatform JavaScript & Lua Game Engine.
 
- **[Docs](https://github.com/Unexex/AspectEngineDocumentation/wiki)** | **[Download](https://github.com/AsynchronousAI/AspectEngine/releases/)** | **[Community]()**
+ **[Docs](https://github.com/AsynchronousAI/AspectEngine/wiki)** | **[Download](https://github.com/AsynchronousAI/AspectEngine/releases/)** | **[Community]()**
 
 </div>
 
